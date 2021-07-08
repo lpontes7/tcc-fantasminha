@@ -1,8 +1,10 @@
 package com.lpontes7.fantasminha.views.login
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.lpontes7.fantasminha.BuildConfig
 
 
 import com.lpontes7.fantasminha.databinding.ActivityLoginBinding
@@ -16,6 +18,8 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         supportActionBar!!.hide()
+        binding.tvVersao.text = ("v."+BuildConfig.VERSION_NAME)
+
         verificarUsuarioLogado()
 
         binding.btEntrar.setOnClickListener {

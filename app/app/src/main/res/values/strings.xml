@@ -4,4 +4,5 @@
     <string name="email">Email</string>
     <string name="senha">Senha</string>
     <string name="entrar">Entrar</string>
+    <string name="novo_por_aqui_cadastro">Novo por aqui? Cadastre-se agora.</string>
 </resources>
