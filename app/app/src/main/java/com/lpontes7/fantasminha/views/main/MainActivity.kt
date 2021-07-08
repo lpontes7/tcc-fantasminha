@@ -1,10 +1,12 @@
-package com.lpontes7.fantasminha
+package com.lpontes7.fantasminha.views.main
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.lpontes7.fantasminha.R
+import com.lpontes7.fantasminha.views.login.LoginActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,5 +21,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun abrirTelaLogin(){
+        val intent = Intent(this,LoginActivity::class.java)
+        startActivity(intent)
+        finish()
     }
 }
