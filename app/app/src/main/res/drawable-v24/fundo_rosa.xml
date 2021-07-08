@@ -4,11 +4,11 @@
         <shape
             android:shape="rectangle">
             <solid
-                android:color="@color/cinzaFantasma"/> <!-- cor do sólido -->
+                android:color="@color/rosaFundo"/> <!-- cor do sólido -->
             <corners
                 android:radius="8dp"/> <!-- valor do arredondamento das bordas -->
             <stroke
-                android:color="@color/cinzaFantasma"
+                android:color="@color/rosaFundo"
                 android:width="2dp"/> <!-- cor da borda e tamanho dela -->
             <padding
                 android:bottom="8dp"

@@ -13,4 +13,7 @@
     <color name="rosaFantasma">#FFCCFD</color>
     <color name="cinzaFantasma">#C7B3D3</color>
 
+    <color name="cinzaFundo">#BABABA</color>
+    <color name="rosaFundo">#FCD1FA</color>
+
 </resources>
